@@ -4,6 +4,7 @@
 **Paper:** *Agent Security Bench (ASB): Formalizing and Benchmarking Attacks and Defenses in LLM-based Agents*, ICLR 2025, CORE A*  
 **Link:** https://proceedings.iclr.cc/paper_files/paper/2025/hash/5750f91d8fb9d5c02bd8ad2c3b44456b-Abstract-Conference.html  
 **Code/data:** https://github.com/agiresearch/ASB  
+**Supplementary materials:** https://github.com/dmagog/airi-agent-security-proposal  
 **AIRI direction:** AgenticAI / SafeAI
 
 LLM-based agents increasingly execute actions through tools, memory, APIs, browsers, and code environments. This changes the safety problem: a harmful instruction becomes operationally relevant when it causes a tool call. The ASB paper addresses this issue by formalizing and benchmarking attacks and defenses for LLM-based agents across 10 domains, 400+ tools, 27 attack/defense variants, and 13 LLM backbones. Its key tasks are: formalizing attack surfaces in agent workflows, measuring attack success across domains and models, evaluating existing defenses, and tracking the utility-security trade-off rather than refusal alone.
